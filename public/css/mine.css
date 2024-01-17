@@ -1,0 +1,213 @@
+.container {
+  width: 1560px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 0 auto;
+}
+
+.delev {
+  width: 1296px;
+  height: 173px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 45px 18px;
+  background-color: #5A5AC9;
+  border-bottom: 80px;
+  margin-bottom: 80px;
+}
+.delev__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+}
+.delev__item--img {
+  width: 56px;
+  height: 45px;
+}
+.delev__item--wrap {
+  display: flex;
+  padding-right: 46px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4.1px;
+}
+.delev__item--wrap__heading {
+  color: #FFF;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 22.5px;
+  text-transform: capitalize;
+}
+.delev__item--wrap__text {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.01px;
+}
+
+.cosmetic {
+  width: 1296px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 99.6px;
+  margin-bottom: 80px;
+}
+.cosmetic__img {
+  width: 636px;
+  height: 368.475px;
+}
+.cosmetic__images {
+  width: 306px;
+  height: 370.363px;
+}
+
+.products {
+  width: 1296px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.products__top {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 43px;
+}
+.products__top--heading2 {
+  color: #111;
+  text-align: center;
+  font-family: Raleway;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 37.5px; /* 125% */
+  text-transform: capitalize;
+}
+.products__top--span {
+  width: 60px;
+  height: 2px;
+  background: #5A5AC9;
+  align-self: center;
+}
+.products__top--text {
+  color: #565656;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24.01px; /* 171.5% */
+}
+.products__top--btns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  gap: 33px;
+  align-items: center;
+  justify-content: center;
+}
+.products__top--btns > button {
+  outline: none;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  color: #111;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 175% */
+  text-transform: capitalize;
+}
+.products__bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.new__products {
+  width: 300px;
+  height: 458px;
+  position: relative;
+  margin-bottom: 98px;
+}
+.new__products--new {
+  display: flex;
+  padding: 4.6px 4.963px 5.4px 5px;
+  align-items: flex-start;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  border-radius: 4px;
+  background: #5A5AC9;
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 12px; /* 100% */
+  text-transform: capitalize;
+}
+.new__products--img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 17px;
+}
+.new__products--bottom {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 18px;
+}
+.new__products--bottom__text {
+  width: 201.887px;
+  color: #111;
+  font-family: Raleway;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+.new__products--bottom__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.maceup {
+  width: 1296px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 99.6px;
+  margin-bottom: 80px;
+}
+
+.photos {
+  width: 1547px;
+  height: 70px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}/*# sourceMappingURL=mine.css.map */
